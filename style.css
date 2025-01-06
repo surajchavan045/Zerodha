@@ -3,3 +3,59 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+.logo-img {
+    width: 12vw;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 8vw;
+    border-bottom: 1px solid #f2f2f2;
+    position: fixed;
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    gap: 2vw;
+}
+
+.options a {
+    text-decoration: none;
+    color: #666;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+    gap: 4vh;
+}
+
+.main-text {
+    font-weight: bold;
+    font-size: 7vh;
+}
+
+.main img {
+    width: 56vw;
+    margin-top: 150px;
+}
+
+.main button {
+    border: none;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 24px;
+}
