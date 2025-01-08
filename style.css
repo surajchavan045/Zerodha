@@ -55,19 +55,23 @@ body{
 .main button {
     border: none;
     font-weight: bold;
-    background-color: blue;
+    background-color: #387ed1;
     border-radius: 5px;
     color: white;
     padding: 15px 25px;
     cursor: pointer;
 }
+.main button:hover {
+    background-color: #666;
+}
 
 .middle{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    padding: 4vh 8vw;
 }
 
 .middle-main-text p{
@@ -88,9 +92,75 @@ body{
 .main-child {
     color: #666;
     margin-bottom: 40px;
+    line-height: 24px;
+    margin-right: 20px;
 }
 
 .middle img {
-    width: 50vw;
+    width: 45vw;
     margin-top: 140px;
+    margin-left: 100px;
 }
+
+.img {
+    margin-left: 250px;
+}
+
+.main-child a {
+    color: #387ed1;
+    text-decoration: none;
+}
+
+.pricing-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8vw;
+    margin-top: 100px;
+  }
+  
+  .pricing-left {
+    width: 30vw;
+    height: 200px;
+  }
+
+  .pricing-left-para {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #424242;
+  }
+
+  .pricing-left-sec {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #424242;
+  }
+  
+  .pricing-right {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+  }
+  .pricing-card {
+    display: flex;
+    align-items: center;
+    width: 33.33%;
+    /* align-items: flex-end; */
+  }
+  .pricing-card img {
+    width: 150px;
+  }
+  .pricing-card p {
+    font-size: 12px;
+    width: 115px;
+    margin-top: 31px;
+    margin-left: -20px;
+    color: #666;
+  }
+
+  
+  
