@@ -162,5 +162,139 @@ body{
     color: #666;
   }
 
+  .middle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   
+  .middle-section-left img {
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .middle-section-child {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 150px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #424242;
+    margin-right: 100px;
+  }
+
+  .middle-section-para {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #424242;
+    margin-right: 100px;
+  }
+
+  .middle-section-link  {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+
+  .middle-section-link a {
+    color: #387ed1;
+    text-decoration: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8vw;
+    width: 100%;
+    background-color: #fbfbfb;
+    padding-top: 8vh;
+    margin-top: 100px;
+  }
   
+  .footer-1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer-1 ul {
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+  }
+  .footer-1 ul li a {
+    color: #666;
+  }
+
+  .footer-links-headibg {
+    color: #424242;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 2;
+    list-style: none;
+  }
+
+  .footer-links  {
+    line-height: 2;
+    font-size: 16px;
+    list-style: none;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: #666;
+  }
+
+  .logo-image {
+    width: 12vw;
+  }
+
+  .Zerodha-account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Zerodha-account-head {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+
+  .Zerodha-account-para {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #666;
+  }
+
+  .Zerodha-account button {
+    border: none;
+    font-weight: bold;
+    background-color: #387ed1;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+  }
+
+  .Zerodha-account button:hover {
+    background-color: #666;
+  }
+
+  .footer-para {
+    font-size: .8rem;
+    color: #666;
+    line-height: 1.8;
+  }
